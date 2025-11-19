@@ -18,8 +18,6 @@ This component implements an LSTM-based **acceptor** that classifies whether a s
 - `experiment.py` – Trains and evaluates the LSTM acceptor  
 - `gen_examples.py` – Generates positive/negative examples  
 - `pos_examples.txt`, `neg_examples.txt` – Training data  
-- `challenge.pdf` – Theoretical questions  
-- `report1.pdf` – Results and performance analysis  
 
 ### Run
 ```bash
@@ -41,7 +39,6 @@ Implements a **2-layer BiLSTM tagger** supporting multiple representations:
 - `bilstmTrain.py` – Training script  
 - `bilstmPredict.py` – Prediction script  
 - `test4.pos`, `test4.ner` – Predictions on blind test sets  
-- `bilstm.pdf` – Training curves and analysis  
 
 ### Train
 ```bash
